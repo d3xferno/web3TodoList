@@ -5,10 +5,10 @@
 * Each transactions cost some amount of ETH(Sepolia).
 
 ## Technologies used : <br/>
-&emsp;* ReactJS<br/>
-&emsp;* Solidity<br/>
-&emsp;* Metamask<br/>
-&emsp;* Ethers
+&emsp; * ReactJS<br/>
+&emsp; * Solidity<br/>
+&emsp; * Metamask<br/>
+&emsp; * Ethers
 
 ## Deployed Site
 Check out site : https://web3todo-d3xferno.vercel.app/
