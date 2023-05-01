@@ -3,12 +3,13 @@
 * The Tasks can be edited and removed.
 * Deployed in Sepolia Testnet
 * Each transactions cost some amount of ETH(Sepolia).
+* Deployed in Vercel
 
 ## Technologies used : <br/>
-&emsp; * ReactJS<br/>
-&emsp; * Solidity<br/>
-&emsp; * Metamask<br/>
-&emsp; * Ethers
+* ReactJS<br/>
+* Solidity<br/>
+* Metamask<br/>
+* Ethers
 
 ## Deployed Site
 Check out site : https://web3todo-d3xferno.vercel.app/
