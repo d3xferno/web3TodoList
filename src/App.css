@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    background-color: #111;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    background-color: #111;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.connect-mask-btn{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    background-color:#0085ff;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.connect-mask-btn:hover{
+    background: #006fff;
 }
 
-.App-link {
-  color: #61dafb;
+.action-btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    margin: 5px;
+    background-color: #0085ff;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.action-btn:hover{
+    background-color: #006fff;
+}
+
+.taskinput > input{
+    padding: 10px 20px;
+    width: 300px; 
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    background-color: white;
+}
+
+.app-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.tasks-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.tasks{
+    background-color: #1E1E1E;
+    width: 500px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+}
+
+.task p{
+    background-color: inherit;
+    padding: 10px;
+}
+
+.task > p,input{
+    width: 70%;
+}
+
+.task input{
+    padding: 10px; 
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #1E1E1E;
+    color: white;
 }
