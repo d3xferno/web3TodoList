@@ -1,6 +1,7 @@
 # Simple Todo List App
-* Users can connect their metamask wallet and get access to their own todo list.<br/>
-* The Tasks can be edited and removed. <br/>
+* Users can connect their metamask wallet and get access to their own todo list.
+* The Tasks can be edited and removed.
+* Deployed in Sepolia Testnet
 * Each transactions cost some amount of ETH(Sepolia).
 
 ## Technologies used : <br/>
